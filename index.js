@@ -36,6 +36,7 @@
         if (event.key === 'Enter') {
             fetchData();
             document.querySelector('input[type="text"]').value = '';
+            document.getElementById('searchBox').style.top = '100px';
         }
     });
 
