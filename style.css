@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    background-size: cover;
+    background-image: url("./Hogwarts Legacy Wallpaper 4k.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+input[type=text],
+input[type=button] {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #704a1f; opacity: 0.9;
+    color: mintcream;
+    text-align: left-center;
+}
+
+::placeholder {
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-size: 10px;
+    color: mintcream;
+    background: #704a1f;
+    padding: 0px;
+}
+
+#header{
+    height: 580px;
+    color: mintcream;
+ 
+}
+
+#searchBox{
+    width: 320px;
+    height: 300px;
+    text-align: center;
+}
+#characterBox{
+    width: 640px;
+    height: 300px;
+    text-align: left-center;
+}
+
+#box{
+    background-color: #e5ba40; 
+    border-radius: 16px;
+    box-shadow: inset -16px -16px 0/16px rgba(255,255,255,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#img,#name,#dateOfBirth,#house,#actor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 90%;
+    text-align: center;
+}
