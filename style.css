@@ -46,7 +46,7 @@ input[type=button] {
 
 #characterBox {
     width: 640px;
-    height: 450px;
+    height: 550px;
     text-align: left-center;
     display: none; 
 }
@@ -65,6 +65,8 @@ input[type=button] {
 #dateOfBirth,
 #house,
 #patronus,
+#ancestry,
+#species,
 #actor {
     display: block;
     margin-left: auto;
@@ -74,4 +76,8 @@ input[type=button] {
     font-size: 18px;
     max-width: 90%;
     text-align: center;
+}
+
+#img{
+    border-radius: 16px;
 }
